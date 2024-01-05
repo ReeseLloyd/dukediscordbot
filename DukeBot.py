@@ -109,6 +109,5 @@ async def delete(ctx, arg):
 with shelve.open('dukeStore', 'c') as db:
   B.keep_alive()
 
-  #my_secret = os.environ['TOKEN']
-  my_secret = 'MTA3ODA2Njc3OTE1NjM4NTg0Mg.GF21uW.NcwV2BIgOjM_wMYcIyGvU8jzD73OuvPXhG111c'
+  my_secret = os.environ['TOKEN']
   bot.run(my_secret)
